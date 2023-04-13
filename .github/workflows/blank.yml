@@ -1,0 +1,16 @@
+name: PowerShell Script
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Run PowerShell script
+      shell: powershell
+      run: .\path\to\script.ps1
