@@ -1,1 +1,1 @@
-Write-Host "hello world"
+Write-Host "THIS IS AJIT, LEARING GITHUB ACTIONS"
