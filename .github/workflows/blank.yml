@@ -13,4 +13,4 @@ jobs:
       uses: actions/checkout@v2
     - name: Run PowerShell script
       shell: powershell
-      run: .\path\to\script.ps1
+      run: .\script.ps1
